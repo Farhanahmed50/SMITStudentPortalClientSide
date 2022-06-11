@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "PTSans";
+    src: url("../../../../Fonts/PTSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Josefin";
+    src: url("../../../../Fonts/JosefinSlab-Regular.ttf");
+}
+
+.heading{
+    text-align: center;
+    margin-left: -35px;
+    font-family: "Josefin";
+    color: #40A9FF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.button{
+    background-color: #40A9FF;
+    border: none;
+    height: 34px;
+    color: #ffffff;
+    font-family: "PTSans";
+    font-size: 15px;
+    width: 315px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.mainContainer{
+    width: 80%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding-left: 35px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.lable{
+    font-family: "PTSans";
+    font-size: 17px;
+    margin-bottom: 5px;
+    margin-top: 22px;
+}
+
+.inputText{
+    width: 290px;
+    height: 30px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.select{
+    width: 315px;
+    height: 35px;
+    border: 1px solid grey;
+    padding-left: 20px;
+    border-radius: 5px;
+}

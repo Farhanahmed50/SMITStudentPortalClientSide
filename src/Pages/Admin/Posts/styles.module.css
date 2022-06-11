@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../../../Fonts/Poppins-Regular.ttf");
+}
+
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.postContainer{
+    position: absolute;
+    width: 80%;
+    right: 0;
+}
+
+.postsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.addPost{
+    position: absolute;
+    right: 40px;
+    top: 30px;
+    background-color: #0692f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-family: "Poppins";
+    box-shadow: 5px 5px 10px grey;
+}

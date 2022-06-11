@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../../Fonts/JosefinSlab-Regular.ttf");
+}
+
+.mainContainer{
+    display: flex;
+    text-align: center;
+    font-family: "Josefin";
+    flex-direction: column;
+    width: 80%;
+    position: absolute;
+    right: 0;
+    
+}
+
+.heading{
+    margin-top: 130px;
+    font-size: 100px;
+    display: block;
+}
+.text{
+    font-size: 33px;
+    margin-top: -40px;
+}
+

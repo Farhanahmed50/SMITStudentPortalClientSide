@@ -1,0 +1,15 @@
+
+.images{
+    width: 100%;
+}
+
+.courses{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.courses>*{
+    margin: 50px 50px 0 50px;
+}

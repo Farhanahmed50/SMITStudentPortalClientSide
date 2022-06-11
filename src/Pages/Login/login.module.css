@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Josefin";
+    src: url("../../Fonts/JosefinSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Josefin-Bold";
+    src: url("../../Fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "PTSans";
+    src: url("../../Fonts/PTSans-Regular.ttf");
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eaedf7;
+}
+
+.mainContainer {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 6px;
+}
+.side1{ 
+    height: 550px;
+    width: 67%;
+}
+
+.image {
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+
+.side2 {
+    background-color: white;
+    width: 33%;
+    margin: 0;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.heading {
+    margin: 30px 0 0 35px;
+    font-family: "Josefin";
+    color: #3563E4;
+}
+
+
+.secondHeading {
+    color: #3563E4;
+    font-family: "Josefin";
+    margin-top: 60px;
+    margin-left: 15%;
+}
+
+.thirdHeading {
+    /* color: #5b5353; */
+    color: black;
+    font-family: "Josefin";
+    margin-left: 15%;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.label {
+    /* color: #4d5555; */
+    color: #000000;
+    font-family: "PTSans";
+    margin-left: 15%;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.email, .password {
+    height: 30px;
+    width: 259px;
+    margin-left: 15%;
+    margin-top: 5px;
+    border: 1px solid #c4bebe;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+
+.email{
+    margin-bottom: 15px;
+}
+
+.checkbox {
+    margin-left: 18%;
+}
+
+.remember {
+    color: #3563E4;
+    font-family: "PTSans";
+    font-size: 12px;
+    text-align: center;
+    margin-right: 45px;
+    margin-left: 2px;
+    text-align: center;
+}
+
+.forgot {
+    /* color: #4d5555; */
+    color: #3563E4;
+    font-family: "PTSans";
+    font-size: 12px;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    color: white;
+    font-family: "PTSans";
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    width: 268px;
+    margin-left: 15%;
+    height: 33px;
+    background-color: #3563E4;
+    margin-bottom: 20px;
+}
+
+.sign {
+    color: black;
+    /* font-weight: 800; */
+    font-family: "Josefin-Bold";
+    /* font-weight: 500; */
+    font-size: 13px;
+    margin-left: 25%;
+    text-align: center;
+}
+
+.signUp {
+    text-decoration: none;
+    color: #3563E4;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.errorShow{
+    display: block;
+    font-size: 12px;
+    color: red;
+    margin-left: 66px;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}

@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../../../Fonts/OpenSans-Regular.ttf");
+}
+
+.mainContainer{
+    width: 300px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px grey;
+    /* margin: 20px; */
+    border-radius: 6px;
+}
+
+.coverPhoto{
+    height: 170px;
+    width: 300px;
+    object-fit: cover;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+
+}
+
+.imageDiv{
+    height: 170px;
+}
+
+.courseName{
+    font-family: "OpenSans";
+    font-size: 18px;
+    margin: 12px 0 0 20px;
+}
+
+.instructorName{
+    font-size: 14px;
+    margin: 4px 0 0 22px;
+    color: #0692f1;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 55px 20px 0 20px;
+}
+
+.statusClosed{
+    background-color: #ff0000;
+}
+
+.statusAvailable{
+    background-color: #0692f1;
+}
+
+.statusAvailable ,.statusClosed{
+    color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 2px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px 0 20px;
+}
+
+.hrTag{
+    border-bottom: 1px solid #f4f5f9;
+    margin: 12px 10px 0 10px;
+}
+
+.button{
+    background-color: #0692f1;
+    padding: 10px 20px;
+    margin-top: -10px;
+    border: none;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* .button:hover{
+    background-color: #0c7dc9;
+    transition: 30s all;
+    padding: 20px;
+} */
+
+.button:active{
+    background-color: #0c7dc9;
+}
+
+
+.price{
+    font-family: "OpenSans";
+    font-size: 15px;
+}
+
+.buttonDisable{
+    background-color: grey;
+    padding: 10px 20px;
+    margin-top: -10px;
+    border: none;
+    color: #ffffff;
+    font-family: "OpenSans";
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}

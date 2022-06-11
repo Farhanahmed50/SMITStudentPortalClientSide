@@ -1,0 +1,6 @@
+.mainPosts{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0 auto;
+    align-items: center;
+}
