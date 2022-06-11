@@ -11,7 +11,7 @@ on:
     branches: [ "main" ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Installing node
-        run: actions/setup-node@v3-beta
+        run: actions/setup-node@v3.3.0
 
       # Runs a set of commands using the runners shell
       - name: Getting action for Yarn
@@ -36,7 +36,7 @@ jobs:
           cmd: install
           
       - name: create build
-        run: npm build
+        run: npm run build
         
       - name: deploy on surge
         run: surge ./build https://smit-student-portal.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
